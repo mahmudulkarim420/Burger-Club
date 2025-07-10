@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Lexend Zetta", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -7,87 +7,87 @@ body{
 
 /* Shared Colors */
 
-.color{
-    color: #FBFADA;
-
+.color {
+  color: #fbfada;
 }
 
-.bg-color{
-    background-color: rgb(18, 55, 42);
-
+.bg-color {
+  background-color: rgb(18, 55, 42);
 }
 
 /* Header Style */
-.header{
-    width: 100%;
-    height: 100vh;
+.header {
+  width: 100%;
+  height: 100vh;
 }
-
 
 /* Nav style */
 
-section h1{
-    font-size: 50px;
-    font-weight: bold;
+section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  position: relative;
+  z-index: 10;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
-nav ul li{
-    margin: 30px;
+nav ul li {
+  margin: 30px;
 }
 
 nav ul li a {
-    font-family: "Sansita Swashed", system-ui;
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 50px;
-    color: #FBFADA;
+  font-family: "Sansita Swashed", system-ui;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 50px;
+  color: #fbfada;
+  cursor: pointer;
 }
 
-
-
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner .banner-content{
-    margin-bottom: 200px;
+.banner .banner-content {
+  margin-bottom: 200px;
 }
 
-.banner-content .p1{
-    font-weight: bold;
-    color: #ADBC9F;
-    font-size: 30px;
+.banner-content .p1 {
+  font-weight: bold;
+  color: #adbc9f;
+  font-size: 30px;
 }
 
-.banner-content h1{
-    font-family: "Sansita Swashed", system-ui;
-    font-weight: bold;
-    color: #FBFADA;
-    font-size: 80px;
+.banner-content h1 {
+  font-family: "Sansita Swashed", system-ui;
+  font-weight: bold;
+  color: #fbfada;
+  font-size: 80px;
 }
 
-.banner-content .p2{
-    font-weight: bold;
-    color: #ADBC9F;
-    font-size: 20px;
+.banner-content .p2 {
+  font-weight: bold;
+  color: #adbc9f;
+  font-size: 20px;
 }
 
-.banner .banner-img{
-    position: relative;
-    bottom: 70px;
+.banner .banner-img {
+  position: relative;
+  bottom: 70px;
 }
